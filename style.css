@@ -18,7 +18,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 400px;
+    width: 500px;
     height: 400px;
     background-image: url("/images/counter.jpg");
     background-size: cover;
@@ -28,4 +28,23 @@ body{
     flex-direction: column;
     justify-content:center;
     text-shadow:1px 1px gray;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    font-weight:bold;
+    font-size: 35px;
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+#increment-btn{
+    background-color: #CD4631;
+}
+
+#save-btn{
+    background-color: #81ADC8;
 }
